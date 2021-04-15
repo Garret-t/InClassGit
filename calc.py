@@ -1,8 +1,10 @@
 def calc(a, b):
-    sum = a + b
+    add = a + b
     #print(sum)
     difference = a - b
     multiply = a * b
     divide = a / b
 
-    ops = [sum, difference, multiply, divide]
+    ops = [add, difference, multiply, divide]
+    summed_list = sum(ops)
+
