@@ -4,3 +4,5 @@ def divisors(a):
         if a % i == 0:
             div_list.append(i)
     return div_list
+
+print(divisors(int(input("Divisors for: "))))
