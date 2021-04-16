@@ -6,3 +6,5 @@ def pass_gen(a):
     for i in range(a):
         password += chr(random.randint(32, 126))
     return password
+
+print(pass_gen(int(input("Password Length: "))))
