@@ -1,2 +1,2 @@
-def divisor(a):
-    pass
+def divisors(a):
+    div_list = []
